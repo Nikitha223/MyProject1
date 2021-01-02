@@ -1,0 +1,47 @@
+Installing Scala
+================
+
+	Scala can be installed in any Unix or windows based system. 
+	Below are the steps to install for Ubuntu (14.04) for scala version 2.11.7. 
+	I am showing the steps for installing Scala (2.11.7) with Java version 7. 
+	It is necessary to install Java before installing Scala. You can also install latest version of Scala(2.12.1) as well.
+
+	Step 0: Open the terminal
+
+	Step 1: Install Java	
+
+	$ sudo apt-add-repository ppa:webupd8team/java
+	$ sudo apt-get update
+	$ sudo apt-get install oracle-java7-installer
+
+	If you are asked to accept Java license terms, click on “Yes” and proceed. Once finished, let us check whether Java has installed 
+	successfully or not. To check the Java version and installation, you can type:
+
+	$ java -version
+
+	Step 2: Once Java is installed, we need to install Scala
+
+	$ cd ~/Downloads
+	$ wget http://www.scala-lang.org/files/archive/scala-2.11.7.deb
+	$ sudo dpkg -i scala-2.11.7.deb
+	$ scala –version
+	
+	This will show you the version of Scala installed.
+	
+	Then type 'scala' in terminal, it will login to scala.
+	
+	$scala
+	scala> 
+	
+Method 2: Installing Scala in Windows
+=========
+
+	1. You need to install Java 1.8.0_111. (You can check it as "Java -version" in cmd). Follow the link to install,
+		http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+	2. Go to http://scala-lang.org/download/ and choose "Download the Scala binaries for windows". Then the msi file will get download.
+		or Access https://downloads.lightbend.com/scala/2.12.6/scala-2.12.6.msi
+	3. Just install scala by double click that msi and its like normal installation.
+	4. After the installation of scala msi file then we can login to scala by simply typing 'scala' in cmd.
+	5. If you are facing any error while opening scala, restart your system then try again.
+	
+	
