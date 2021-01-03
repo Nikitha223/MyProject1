@@ -43,5 +43,7 @@ Method 2: Installing Scala in Windows
 	3. Just install scala by double click that msi and its like normal installation.
 	4. After the installation of scala msi file then we can login to scala by simply typing 'scala' in cmd.
 	5. If you are facing any error while opening scala, restart your system then try again.
-	
+
+
+Method 3: changes done by 2nd team member
 	
